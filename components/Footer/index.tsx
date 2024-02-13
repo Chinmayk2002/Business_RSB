@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
-                <Link href="/" className="mb-8 inline-block">
+                {/* <Link href="/" className="mb-8 inline-block">
                   <Image
                     src="/images/logo/logo-2.svg"
                     alt="logo"
@@ -28,11 +28,11 @@ const Footer = () => {
                     width={140}
                     height={30}
                   />
-                </Link>
-                <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
+                </Link> */}
+                {/* <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer lobortis.
-                </p>
+                </p> */}
                 <div className="flex items-center">
                   <a
                     href="/"
@@ -105,15 +105,15 @@ const Footer = () => {
                       href="/blogs"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Blog
+                      Products
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/pricing"
+                      href="/"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Pricing
+                      Home
                     </a>
                   </li>
                   <li>
@@ -128,7 +128,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            {/* <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Terms
@@ -160,12 +160,12 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Support & Help
+                  Contact & Help
                 </h2>
                 <ul>
                   <li>
@@ -173,7 +173,7 @@ const Footer = () => {
                       href="/contact"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Open Support Ticket
+                      Subscribe to newsletter
                     </a>
                   </li>
                   <li>
@@ -181,7 +181,7 @@ const Footer = () => {
                       href="/"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Terms of Use
+                      Email : bsbangale@rsbinfotech.com
                     </a>
                   </li>
                   <li>
@@ -189,7 +189,7 @@ const Footer = () => {
                       href="/about"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      About
+                      Phone no: +91 8796076606
                     </a>
                   </li>
                 </ul>
@@ -200,10 +200,7 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by UIdeck and{" "}
-              <a href="https://nextjstemplates.com" rel="nofollow noopener">
-                Next.js Templates
-              </a>
+             RSB Infotech
             </p>
           </div>
         </div>
