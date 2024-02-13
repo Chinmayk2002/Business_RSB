@@ -34,7 +34,7 @@ const blogData: Blog[] = [
     title: "Spare Parts",
     paragraph:
       "Keep your devices running smoothly with our genuine and high-quality spare parts. Whether you need replacement screens, batteries, or other components, our comprehensive selection ensures that your devices maintain optimal performance.",
-    image: "/images/blog/blog-03.jpg",
+    image: "/images/about/BeFunky-collage.jpg",
     author: {
       name: "Lethium Deo",
       image: "/images/blog/author-03.png",
