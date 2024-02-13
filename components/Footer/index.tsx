@@ -29,10 +29,9 @@ const Footer = () => {
                     height={30}
                   />
                 </Link> */}
-                {/* <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
-                </p> */}
+                <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
+                  Connect with us on
+                </p>
                 <div className="flex items-center">
                   <a
                     href="/"
@@ -173,7 +172,7 @@ const Footer = () => {
                       href="/contact"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Subscribe to newsletter
+                      Address : Shop no 7, Kanchanban Society Phase-I, Paud Road, Kothrud, Pune - 411038
                     </a>
                   </li>
                   <li>

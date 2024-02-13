@@ -32,7 +32,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
             {paragraph}
           </p>
           <div className="flex items-center">
-            <div className="mr-5 flex items-center border-r border-body-color border-opacity-10 pr-5 dark:border-white dark:border-opacity-10 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5">
+            {/* <div className="mr-5 flex items-center border-r border-body-color border-opacity-10 pr-5 dark:border-white dark:border-opacity-10 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5">
               <div className="mr-4">
                 <div className="relative h-10 w-10 overflow-hidden rounded-full">
                   <Image src={author.image} alt="author" fill />
@@ -50,7 +50,13 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
                 Date
               </h4>
               <p className="text-xs text-body-color">{publishDate}</p>
-            </div>
+            </div> */}
+            <Link
+                    href="/blog"
+                    className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                  >
+                    Explore
+                  </Link>
           </div>
         </div>
       </div>
