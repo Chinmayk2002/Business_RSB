@@ -49,25 +49,42 @@ const AboutSectionOne = () => {
               </div>
             </div>
 
-            {/* <div className="w-full px-4 lg:w-1/2">
+            <div className="w-full px-4 lg:w-1/2">
               <div
-                className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
+                className="wow fadeInUp hover:shadow-two dark:hover:shadow-gray-dark group relative overflow-hidden rounded-sm bg-white shadow-one duration-300 dark:bg-dark mx-auto  block aspect-[37/22] max-w-[500px] lg:m-2"
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/about/about-image.svg"
+                  src="/images/blog/repair.jpg"
                   alt="about-image"
                   fill
                   className="drop-shadow-three mx-auto max-w-full dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
-                  src="/images/about/about-image-dark.svg"
+                  src="/images/blog/repair.jpg"
                   alt="about-image"
                   fill
                   className="drop-shadow-three mx-auto hidden max-w-full dark:block dark:drop-shadow-none lg:mr-0"
                 />
               </div>
-            </div> */}
+              <div
+                className="wow fadeInUp hover:shadow-two dark:hover:shadow-gray-dark group relative overflow-hidden rounded-sm bg-white shadow-one duration-300 dark:bg-dark mx-auto  block aspect-[37/22] max-w-[500px]  lg:m-2"
+                data-wow-delay=".2s"
+              >
+                <Image
+                  src="/images/blog/projscreen.jpg"
+                  alt="about-image"
+                  fill
+                  className="drop-shadow-three mx-auto max-w-full dark:hidden dark:drop-shadow-none lg:mr-0"
+                />
+                <Image
+                  src="/images/blog/projscreen.jpg"
+                  alt="about-image"
+                  fill
+                  className="drop-shadow-three mx-auto hidden max-w-full dark:block dark:drop-shadow-none lg:mr-0"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
