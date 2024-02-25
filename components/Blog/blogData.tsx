@@ -31,10 +31,51 @@ const blogData: Blog[] = [
   },
   {
     id: 3,
-    title: "Spare Parts",
+    title: "Projector Lamp",
     paragraph:
-      "Keep your devices running smoothly with our genuine and high-quality spare parts. Whether you need replacement screens, batteries, or other components, our comprehensive selection ensures that your devices maintain optimal performance.",
-    image: "/images/blog/rsbspare.jpg",
+      "A projector lamp, often referred to as a projector bulb or bulb module, is a critical component in a projector that produces the light necessary for projecting images onto a screen or surface. These lamps play a key role in ensuring the brightness, clarity, and color accuracy of the projected content.",
+    image: "/images/blog/projlamp.jpg",
+    author: {
+      name: "Lethium Deo",
+      image: "/images/blog/author-03.png",
+      designation: "Graphic Designer",
+    },
+    tags: ["Parts"],
+    publishDate: "2025",
+  },
+  {
+    id: 4,
+    title: "Projector PCB",
+    paragraph:
+      "Tailored for home theater or professional presentations, it meets the rigorous demands of modern projection technology, providing a solid foundation for intricate electronic circuits. Elevate your projector designs with our specialized Advanced Projector PCB.",
+    image: "/images/blog/projpcb.jpg",
+    author: {
+      name: "Lethium Deo",
+      image: "/images/blog/author-03.png",
+      designation: "Graphic Designer",
+    },
+    tags: ["Parts"],
+    publishDate: "2025",
+  },
+  {
+    id: 5,
+    title: "Projector PCB",
+    paragraph:
+      "Upgrade with our Accessories Bundle featuring a universal ceiling mount, wireless remote, carrying case, HDMI cable, screen cleaning kit, power strip, and an adjustable tripod stand. Elevate your presentations or entertainment effortlessly.",
+    image: "/images/blog/projaccessories.jpg",
+    author: {
+      name: "Lethium Deo",
+      image: "/images/blog/author-03.png",
+      designation: "Graphic Designer",
+    },
+    tags: ["Parts"],
+    publishDate: "2025",
+  },
+  {
+    id: 5,
+    title: "Computer Parts",
+    paragraph: "Optimize your computer's speed and reliability with our High-Performance Parts Bundle. Tailored for gamers and professionals, this carefully selected bundle ensures an upgrade that delivers enhanced efficiency for a seamless computing experience.",
+      image: "/images/blog/pcparts.jpg",
     author: {
       name: "Lethium Deo",
       image: "/images/blog/author-03.png",

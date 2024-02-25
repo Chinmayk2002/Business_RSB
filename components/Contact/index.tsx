@@ -4,7 +4,8 @@ const Contact = () => {
   return (
     <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
       <div className="container">
-        <div className="-mx-4 flex flex-wrap">
+        <div className="mx-4 flex flex-wrap">
+        <iframe className="m-4 p-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.3783978471524!2d73.80460991503213!3d18.51179485776466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfc3a361ce63%3A0x495a435a32907831!2sRSB%20Infotech!5e0!3m2!1sen!2sin!4v1708854539580!5m2!1sen!2sin" width="600" height="450"  loading="lazy"></iframe>
           <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
             <div
               className="wow fadeInUp shadow-three dark:bg-gray-dark mb-12 rounded-sm bg-white px-8 py-11 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"

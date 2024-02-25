@@ -38,10 +38,10 @@ const AboutSectionOne = () => {
                     <List text="Annual Maintainance Contracts" />
                     <List text="Projector Rentals" />
                     <List text="Device Repair Services" />
+                    <List text="Projector Panel Alignment" />
                   </div>
                
                   {/* <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
                     <List text="Rich documentation" />
                     <List text="Developer friendly" />
                   </div> */}
