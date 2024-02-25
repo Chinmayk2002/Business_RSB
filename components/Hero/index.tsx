@@ -5,7 +5,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="dark:bg-[url('/images/blog/rsbprojector.jpg')] bg-hero bg-no-repeat bg-cover bg-center  relative z-10 overflow-hidden bg-white pb-16 pt-[120px] md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="dark:bg-[url('/images/blog/rsbprojector.jpg')] bg-hero bg-no-repeat bg-cover bg-center  relative z-10 overflow-hidden bg-[url('/images/blog/rsbprojector.jpg')] pb-16 pt-[120px] md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
@@ -14,10 +14,10 @@ const Hero = () => {
                 className="wow fadeInUp mx-auto max-w-[800px] text-center"
                 data-wow-delay=".2s"
               >
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                <h1 className="mb-5 text-3xl font-bold leading-tight text-white dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   Electronic Devices Sales, Services, and Rental.
                 </h1>
-                <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
+                <p className="dark:text-white mb-12 text-base !leading-relaxed text-white sm:text-lg md:text-xl">
                   
 Welcome to our Electronic Devices Emporium, where cutting-edge technology meets exceptional service! At our store, we take pride in offering a comprehensive range of electronic devices for sale, top-notch repair services, and convenient rental options to cater to your diverse technological needs.
                 </p>
