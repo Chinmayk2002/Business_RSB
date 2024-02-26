@@ -33,7 +33,7 @@ const blogData: Blog[] = [
     id: 3,
     title: "Projector Lamp",
     paragraph:
-      "A projector lamp, often referred to as a projector bulb or bulb module, is a critical component in a projector that produces the light necessary for projecting images onto a screen or surface. These lamps play a key role in ensuring the brightness, clarity, and color accuracy of the projected content.",
+      "A projector lamp, often referred to as a projector bulb or bulb module, is a critical component in a projector that produces the light necessary for projecting images onto a screen or surface. These lamps play a key role in ensuring the brightness and clarity.",
     image: "/images/blog/projlamp.jpg",
     author: {
       name: "Lethium Deo",
@@ -74,7 +74,7 @@ const blogData: Blog[] = [
   {
     id: 5,
     title: "Computer Parts",
-    paragraph: "Optimize your computer's speed and reliability with our High-Performance Parts Bundle. Tailored for gamers and professionals, this carefully selected bundle ensures an upgrade that delivers enhanced efficiency for a seamless computing experience.",
+    paragraph: "Optimize your computer's speed and reliability with our High-Performance Parts Bundle. Tailored for gamers and professionals, these parts ensures an upgrade that delivers enhanced efficiency for a seamless computing experience.",
       image: "/images/blog/pcparts.jpg",
     author: {
       name: "Lethium Deo",
